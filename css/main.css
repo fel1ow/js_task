@@ -1,0 +1,92 @@
+/* test elements start */
+
+.wrapper
+{
+    margin: 20px 0 15px 0;
+}
+
+/* test elements end */
+/* autocomplete general start */
+
+.ac_wrapper
+{
+    padding: 4px;
+    border: 1px solid black;
+    width: 540px;
+    position: relative;
+    cursor: text;
+}
+.ac_input
+{
+    margin: 1px 2px 0 1px;
+    width: 245px;
+    border: none !important;
+}
+.ac_input:focus
+{
+    font-size: 13px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 1px 2px 0 1px;
+}
+.user_added_name
+{
+    padding-left: 5px;
+}
+.user_added_block
+{
+    white-space: nowrap;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 1px 0 1px 0;
+    margin: 3px 2px 3px 1px;
+    display: inline-block;
+}
+.user_del_button
+{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: no-repeat url('../img/contactarea_sprite_2.gif') -4px 0;
+    opacity: .6;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+/* autocomplete general end */
+/* autocomplete dropdown start */
+
+.ac_drop_block
+{
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    display: none;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 96%;
+    z-index: 100;
+}
+.ac_drop_block li
+{
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.ac_drop_block li:last-child
+{
+    border-bottom: none;
+    margin: 0 0 2px 0;
+}
+.highlighted
+{
+    background-color: #c1c1c1;
+}
+.selected
+{
+    background-color: #fdff00;
+}
+
+/* autocomplete dropdown end */
